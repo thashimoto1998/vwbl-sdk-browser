@@ -1,4 +1,4 @@
-import AWS from "aws-sdk";
+import * as AWS from "aws-sdk";
 import * as Stream from "stream";
 
 import { getMimeType, toArrayBuffer } from "../../util/fileHelper";

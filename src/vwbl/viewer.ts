@@ -2,7 +2,7 @@ import axios from "axios";
 import { Contract } from "web3-eth-contract";
 import { AbiItem } from "web3-utils";
 
-import vwblDataCollector from "../contract/VWBLDataCollector.json";
+import * as vwblDataCollector from "../contract/VWBLDataCollector.json";
 import { decryptFile, decryptString } from "../util/cryptoHelper";
 import { VWBLBase } from "./base";
 import { ExtendedMetadeta, ExtractMetadata, PlainMetadata } from "./metadata";

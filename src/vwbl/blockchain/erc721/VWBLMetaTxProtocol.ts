@@ -1,9 +1,9 @@
 import axios from "axios";
 import { ethers } from "ethers";
 
-import forwarder from "../../../contract/Forwarder.json";
-import vwblMetaTx from "../../../contract/VWBLMetaTx.json";
-import vwblMetaTxIpfs from "../../../contract/VWBLMetaTxSupportIPFS.json";
+import * as forwarder from "../../../contract/Forwarder.json";
+import * as vwblMetaTx from "../../../contract/VWBLMetaTx.json";
+import * as vwblMetaTxIpfs from "../../../contract/VWBLMetaTxSupportIPFS.json";
 import {
   buildForwardTxRequest,
   getDataToSignForEIP712,

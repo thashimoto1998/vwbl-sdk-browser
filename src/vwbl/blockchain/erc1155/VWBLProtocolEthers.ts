@@ -1,7 +1,7 @@
 import { ethers } from "ethers";
 
-import vwbl1155 from "../../../contract/VWBLERC1155.json";
-import vwbl1155IPFS from "../../../contract/VWBLERC1155SupportIPFS.json";
+import * as vwbl1155 from "../../../contract/VWBLERC1155.json";
+import * as vwbl1155IPFS from "../../../contract/VWBLERC1155SupportIPFS.json";
 
 export class VWBLERC1155EthersContract {
   private ethersProvider: ethers.providers.BaseProvider;
