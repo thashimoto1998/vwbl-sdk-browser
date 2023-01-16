@@ -1,13 +1,69 @@
 {
   "compilerOptions": {
-    "outDir": "./dist/",
-    "noImplicitAny": true,
-    "module": "es6",
+    "composite": true,
+    "declaration": true,
+    "declarationMap": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "lib": [
+      "es2015",
+      "es5",
+      "dom"
+    ],
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "noEmitOnError": true,
+    "noFallthroughCasesInSwitch": true,
+    "preserveSymlinks": true,
+    "preserveWatchOutput": true,
+    "pretty": false,
+    "sourceMap": true,
     "target": "es5",
-    "resolveJsonModule": true,
-    "jsx": "react",
-    "allowJs": true,
-    "moduleResolution": "node"
+    "outDir": "./dist",
+    "resolveJsonModule": true
+  },
+  "include": ["src/**/*.ts", "src/**/*.json"]
+}
+
+/**
+{
+  "compilerOptions": {
+    "target": "es6",
+      "module": "commonJS",
+      //"moduleResolution": "node",
+      "noImplicitAny": false,
+     // "lib": ["esnext", "esnext.asynciterable", "dom"],
+      "resolveJsonModule": true,
+      //"esModuleInterop": true,
+    "outDir": "./dist",
   },
   "include": ["src"]
 }
+/**
+{
+  "compilerOptions": {
+    "composite": true,
+    "declaration": true,
+    "declarationMap": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "lib": [
+      "es2015",
+      "es5",
+      "dom"
+    ],
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "noEmitOnError": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "preserveSymlinks": true,
+    "preserveWatchOutput": true,
+    "pretty": false,
+    "sourceMap": true,
+    "target": "es5"
+  }
+}
+*/
